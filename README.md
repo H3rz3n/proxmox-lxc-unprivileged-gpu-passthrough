@@ -1,4 +1,4 @@
-# How to pass a GPU to an unprivileged Proxmox LXC container
+# How to passthrough a GPU to an unprivileged Proxmox LXC container
 
 ## Prepare the container .conf file
 From the Proxmox Host, add the following lines to the container .conf file, which is located in `/etc/pve/lxc/ct_number_here.conf` :
