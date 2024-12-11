@@ -93,7 +93,7 @@ Remember to substitute `/path/to/your/script/file/` with the path you choosed fo
 Now you just need to start this service and enable it on startup with `systemctl enable gpu_permission_fix.service` and `systemctl start gpu_permission_fix.service`.
 
 ## Check if the permission are correctly applied
-Now if you use `ls -l /dev/dri` you should see an output similar to this :
+From inside the container, if you use `ls -l /dev/dri` you should see an output similar to this :
 ```
 drwxr-xr-x 2 nobody nogroup           80 Dec 11 16:10 by-path
 crw-rw---- 1 root   root        226,   0 Dec 11 16:10 card0
