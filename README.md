@@ -24,7 +24,7 @@ crw-rw---- 1 root   root 226,   0 Dec 11 17:10 card0
 crw-rw---- 1 root   root 226, 128 Dec 11 17:10 renderD128
 ```
 
-## Prepare the UDEV rules on the 
+## Prepare the UDEV rules on the host
 From the Proxmox Host create a new UDEV rule in `/etc/udev/rules.d/` using :
 ```
 nano /etc/udev/rules.d/99-gpu-passthrough.rules
