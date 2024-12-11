@@ -43,7 +43,7 @@ udevadm trigger
 ```
 To properly load and enable the new UDEV rule now and on startup.
 
-## Fix container permission on every container startup
+## Fix container permissions on every container startup
 The last step is to fix the gpu permission from inside our container. The most simple way is to create a media group called `media_group`, add to it every user who need to use the GPU and creater a simple script to launch on startup to apply those permissions on every container startup.
 
 ### Create the media_group group and add the users to it
