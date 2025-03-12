@@ -53,12 +53,12 @@ groupadd media_group
 ```
 To add a user to the media_group you need to use :
 ```
-usermode -aG media_group user_username
+usermod -aG media_group user_username
 ```
 The two most common cases are :
 ```
-usermode -aG media_group root
-usermode -aG media_group jellyfin
+usermod -aG media_group root
+usermod -aG media_group jellyfin
 ```
 
 ### Create the script to fix permission on startup
